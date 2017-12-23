@@ -10,11 +10,13 @@ pipeline:
     secrets:
       - source: test
         target: test46
+    secrets: test2
     commands:
       # - sleep 5
       # - yarn install
       - echo $TEST
       - echo $TEST46
+      - echo $TEST2
       # - node redis.js
 
   # test2:
