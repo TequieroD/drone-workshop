@@ -10,7 +10,8 @@ pipeline:
     secrets:
       - source: test
         target: test46
-    secrets: test2
+      - source: test2
+        target: test2
     commands:
       # - sleep 5
       # - yarn install
